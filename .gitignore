@@ -1,0 +1,9 @@
+
+tmp/
+temp/
+.tmp/
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
