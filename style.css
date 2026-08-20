@@ -363,7 +363,7 @@ footer p{
 }
 
 .logo-grid-organizers{
-  grid-template-columns:repeat(4, minmax(0, 1fr));
+  grid-template-columns:repeat(3, minmax(0, 1fr));
 }
 
 .logo-grid-support{
@@ -407,6 +407,29 @@ footer p{
 
 .logo-link img[alt="Multivers.io"]{
   max-height:92px;
+}
+
+.logo-link-soft{
+  background:
+    linear-gradient(180deg, rgba(248,250,252,0.96), rgba(239,245,250,0.92)),
+    radial-gradient(circle at top left, rgba(164,84,75,0.10), transparent 34%);
+}
+
+.logo-link-dark{
+  background:var(--surface);
+  color:var(--text);
+}
+
+.logo-link-soft img{
+  max-height:88px;
+}
+
+.logo-link-dark img{
+  max-height:104px;
+}
+
+.logo-link-dark span{
+  color:var(--text);
 }
 
 .logo-link span{
