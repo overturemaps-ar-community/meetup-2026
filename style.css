@@ -410,9 +410,7 @@ footer p{
 }
 
 .logo-link-soft{
-  background:
-    linear-gradient(180deg, rgba(248,250,252,0.96), rgba(239,245,250,0.92)),
-    radial-gradient(circle at top left, rgba(164,84,75,0.10), transparent 34%);
+  background:var(--surface);
 }
 
 .logo-link-dark{
