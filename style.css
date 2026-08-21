@@ -367,7 +367,7 @@ footer p{
 }
 
 .logo-grid-support{
-  grid-template-columns:repeat(2, minmax(220px, 280px));
+  grid-template-columns:repeat(3, minmax(220px, 280px));
 }
 
 .logo-card{
@@ -409,8 +409,16 @@ footer p{
   max-height:92px;
 }
 
-.logo-link img[alt="Camp to Camp"]{
-  max-height:42px;
+.logo-link img[alt="camptocamp"]{
+  max-height:52px;
+}
+
+.logo-link-camptocamp{
+  padding-top:22px;
+}
+
+.logo-link-camptocamp span{
+  margin-top:10px;
 }
 
 .logo-link-soft{
