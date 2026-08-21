@@ -367,7 +367,7 @@ footer p{
 }
 
 .logo-grid-support{
-  grid-template-columns:minmax(220px, 280px);
+  grid-template-columns:repeat(2, minmax(220px, 280px));
 }
 
 .logo-card{
@@ -401,12 +401,16 @@ footer p{
 }
 
 .logo-card:first-child .logo-link img,
-.logo-grid-support .logo-card:last-child .logo-link img{
+.logo-grid-support .logo-card:first-child .logo-link img{
   max-height:72px;
 }
 
 .logo-link img[alt="Multivers.io"]{
   max-height:92px;
+}
+
+.logo-link img[alt="Camp to Camp"]{
+  max-height:42px;
 }
 
 .logo-link-soft{
