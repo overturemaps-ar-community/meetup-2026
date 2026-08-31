@@ -32,11 +32,11 @@ El evento busca reunir a estudiantes, investigadores, profesionales, organismos 
 | Hora | Bloque | Actividad |
 | --- | --- | --- |
 | 16:00–16:20 | Bienvenida | Recepción, acreditación y café |
-| 16:20–16:30 | Por qué estamos acá | Apertura del meetup, propósito del encuentro y presentación de la agenda |
-| 16:30–17:00 | Visión | ¿Qué es Overture Maps y por qué puede ser relevante para Argentina? Origen, modelo colaborativo, datos disponibles, estado actual y oportunidades |
-| 17:00–17:40 | Conversación | Panel: Oportunidades para el ecosistema geoespacial argentino |
+| 16:20–16:30 | Por qué estamos acá | Apertura del meetup y presentación de la agenda, a cargo de José Macchi en representación de OvertureMaps |
+| 16:30–17:00 | Visión | Qué es Overture Maps, su modelo colaborativo y su relevancia potencial para Argentina |
+| 17:00–17:40 | Conversación | Panel con Claudio Aciti, decano de la Facultad de Ciencias Exactas; Santiago Linares (CONICET/Facultad de Ciencias Humanas); y Cluster Tecnológico Tandil |
 | 17:40–18:00 | Conectar | Coffee break y networking |
-| 18:00–18:35 | Inspiración | Tres casos de uso o prototipos: 10 minutos cada uno, más transiciones |
+| 18:00–18:35 | Inspiración | Casos de uso y prototipos con Joaquín Di Lorenzo, "Del radio censal al edificio", y José Macchi, con ejemplos de uso como SolarScope y otros desarrollos |
 | 18:35–18:50 | Diálogo abierto | Preguntas, comentarios e ideas del público |
 | 18:50–19:00 | Comunidad | Próximos pasos, canales de participación y cierre |
 
