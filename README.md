@@ -21,11 +21,16 @@ El evento busca reunir a estudiantes, investigadores, profesionales, organismos 
 - Overture Maps Argentina Community
 - CICE
 - Facultad de Ciencias Exactas UNICEN
-- Multivers.io
+- Maestría en Teledetección y SIG, Facultad de Agronomía UNICEN
+- Facultad de Ciencias Humanas UNICEN
+- Cluster Tecnológico Tandil
 
 ## Con el apoyo de
 
 - Overture Maps Foundation
+- Camptocamp
+- Multivers.io
+- Geneos
 
 ## Agenda
 
@@ -39,15 +44,6 @@ El evento busca reunir a estudiantes, investigadores, profesionales, organismos 
 | 18:00–18:35 | Inspiración | Casos de uso y prototipos con Joaquín Di Lorenzo, "Del radio censal al edificio", y José Macchi, con ejemplos de uso como SolarScope y otros desarrollos |
 | 18:35–18:50 | Diálogo abierto | Preguntas, comentarios e ideas del público |
 | 18:50–19:00 | Comunidad | Próximos pasos, canales de participación y cierre |
-
-## Sitio
-
-Este repositorio contiene la landing page estática publicada mediante GitHub Pages.
-
-### Assets destacados
-
-- `assets/multivers-io.png`: versión optimizada para web del logo de Multivers.io
-- `assets/favicon.png` y `assets/favicon.ico`: favicon del sitio inspirado en la marca de Overture Maps
 
 ## Licencia
 
