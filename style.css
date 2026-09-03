@@ -363,11 +363,11 @@ footer p{
 }
 
 .logo-grid-organizers{
-  grid-template-columns:repeat(3, minmax(0, 1fr));
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .logo-grid-support{
-  grid-template-columns:repeat(3, minmax(220px, 280px));
+  grid-template-columns:repeat(auto-fit, minmax(220px, 280px));
 }
 
 .logo-card{
@@ -411,6 +411,20 @@ footer p{
 
 .logo-link img[alt="camptocamp"]{
   max-height:52px;
+}
+
+.logo-link-geneos img{
+  max-height:58px;
+}
+
+.logo-link-cluster{
+  background:var(--surface);
+}
+
+.logo-link-cluster img{
+  width:100%;
+  max-width:240px;
+  max-height:88px;
 }
 
 .logo-link-camptocamp{
