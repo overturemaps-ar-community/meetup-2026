@@ -1,12 +1,12 @@
 # Overture Maps Argentina Community - Meetup 2026
 
-Sitio oficial del Meetup Overture Maps Argentina 2026.
+Sitio oficial y memoria del Meetup Overture Maps Argentina 2026.
 
 ## Objetivo
 
 Promover el uso de datos geoespaciales abiertos para investigación, gobierno, empresas y comunidad tecnológica.
 
-El evento busca reunir a estudiantes, investigadores, profesionales, organismos públicos y empresas para compartir experiencias alrededor de Overture Maps y el ecosistema de datos abiertos.
+El encuentro reunió a estudiantes, investigadores, profesionales, organismos públicos y empresas para compartir experiencias alrededor de Overture Maps y el ecosistema de datos abiertos.
 
 ## Evento
 
@@ -14,7 +14,7 @@ El evento busca reunir a estudiantes, investigadores, profesionales, organismos 
 - Horario: 16:00 a 19:00 hs
 - Lugar: Globant Iconic Building Tandil
 - Formato: Meetup presencial + networking
-- Inscripción: abierta, con registro previo
+- Resultado: más de 50 asistentes a partir de 85 inscripciones recibidas
 
 ## Organizan
 
