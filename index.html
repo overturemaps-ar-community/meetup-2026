@@ -112,16 +112,24 @@
       </div>
       <div class="photo-grid">
         <figure class="photo-card photo-card-tall">
-          <img src="assets/meetup-opening.jpg" alt="Asistentes durante la apertura del Overture Maps Meetup Tandil 2026">
+          <button class="photo-button" type="button" aria-label="Ampliar: Asistentes durante la apertura del meetup">
+            <img src="assets/meetup-opening.jpg" alt="Asistentes durante la apertura del Overture Maps Meetup Tandil 2026">
+          </button>
         </figure>
         <figure class="photo-card">
-          <img src="assets/meetup-networking.jpg" alt="Participantes conversando durante el espacio de networking">
+          <button class="photo-button" type="button" aria-label="Ampliar: Participantes durante el networking">
+            <img src="assets/meetup-networking.jpg" alt="Participantes conversando durante el espacio de networking">
+          </button>
         </figure>
         <figure class="photo-card">
-          <img src="assets/meetup-use-case.jpg" alt="Presentación de un caso de uso de Overture Maps">
+          <button class="photo-button" type="button" aria-label="Ampliar: Presentación de un caso de uso">
+            <img src="assets/meetup-use-case.jpg" alt="Presentación de un caso de uso de Overture Maps">
+          </button>
         </figure>
         <figure class="photo-card photo-card-wide">
-          <img src="assets/meetup-venue.jpg" alt="Vista del espacio del meetup en Globant Tandil">
+          <button class="photo-button" type="button" aria-label="Ampliar: Espacio del meetup en Globant Tandil">
+            <img src="assets/meetup-venue.jpg" alt="Vista del espacio del meetup en Globant Tandil">
+          </button>
         </figure>
       </div>
     </div>
@@ -278,6 +286,16 @@
   </section>
 </main>
 
+<dialog class="lightbox" aria-label="Foto ampliada">
+  <div class="lightbox-content">
+    <button class="lightbox-close" type="button" aria-label="Cerrar foto ampliada">&times;</button>
+    <button class="lightbox-nav lightbox-prev" type="button" aria-label="Ver foto anterior">&#8249;</button>
+    <img class="lightbox-image" src="" alt="">
+    <button class="lightbox-nav lightbox-next" type="button" aria-label="Ver foto siguiente">&#8250;</button>
+    <p class="lightbox-caption"></p>
+  </div>
+</dialog>
+
 <footer>
   <div class="container">
     <div class="footer-content">
@@ -295,5 +313,40 @@
     </div>
   </div>
 </footer>
+<script>
+  const galleryButtons = [...document.querySelectorAll(".photo-button")];
+  const lightbox = document.querySelector(".lightbox");
+  const lightboxImage = lightbox.querySelector(".lightbox-image");
+  const lightboxCaption = lightbox.querySelector(".lightbox-caption");
+  let activePhoto = 0;
+
+  function showPhoto(index) {
+    activePhoto = (index + galleryButtons.length) % galleryButtons.length;
+    const photo = galleryButtons[activePhoto].querySelector("img");
+    lightboxImage.src = photo.src;
+    lightboxImage.alt = photo.alt;
+    lightboxCaption.textContent = photo.alt;
+  }
+
+  galleryButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+      showPhoto(index);
+      lightbox.showModal();
+    });
+  });
+
+  lightbox.querySelector(".lightbox-close").addEventListener("click", () => lightbox.close());
+  lightbox.querySelector(".lightbox-prev").addEventListener("click", () => showPhoto(activePhoto - 1));
+  lightbox.querySelector(".lightbox-next").addEventListener("click", () => showPhoto(activePhoto + 1));
+
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox || event.target.classList.contains("lightbox-content")) lightbox.close();
+  });
+
+  lightbox.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") showPhoto(activePhoto - 1);
+    if (event.key === "ArrowRight") showPhoto(activePhoto + 1);
+  });
+</script>
 </body>
 </html>
